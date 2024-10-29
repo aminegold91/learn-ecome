@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="https://kiriwtacademy.000webhostapp.com/">
+    <meta name="google-site-verification" content="tcmNQaVtH5-fIyMpYhTBE-Es83uof8xqJYOYWrun62U" />
+  <style>
+            :root {
+        --bg-color: #ddd;
+        --color: #fff;
+        
+        }
+
+        *{
+        padding: 0;
+        margin:0;
+        box-sizing: border-box;
+        }
+
+        body{
+        background: var(--bg-white);
+        }
+        nav{
+        background: var(--bg-color);
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding:  0 15px;
+        display: flex;
+        height: 70px;
+        position: fixed;
+        top: 0;
+        box-shadow: 1px 3px 9px grey;
+        }
+        nav .btn{
+        color: #444;
+        }
+        nav .btn i{
+        font-size: 26px;
+        }
+        nav .logo{
+        font-family: 'Cairo', sans-serif;
+        }
+        .intru{
+        margin-top: 85px;
+        }
+        .intru p{
+        padding: 25px; 
+        font-family:  'El Messiri', sans-serif;
+        text-align: center; 
+        color: #444;
+        background: #eee"
+        }
+        section{
+        margin: 10px auto;
+        padding: 10px;
+        background: var(--bg-color);
+        }
+        section h2{
+        font-family: 'El Messiri', sans-serif;
+        margin: 20px auto;
+        text-align: center;
+        border-bottom: 2px solid palevioletred;
+        }
+        section p{
+        padding: 15px;
+        }
+        footer{
+        width: 100%;
+        height: 80px;
+        background: #42445A;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 20px;
+        }
+        footer div{
+        width: 50px;
+        height: 50px;
+        background: #eee;
+        margin: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        }
+            
+            
+        .card1{
+        width: 100%;
+        height: 100%;
+        background: #ddd;
+        padding: 20px;
+        }
+        .card1 .title-code{
+        background: #666;
+        padding: 5px 20px;
+        color: white;
+        font-family: sans-serif;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        }
+        .card1 textarea{
+        outline: none;
+        width: 100%;
+        text-align: left;
+        padding: 20px;
+        resize: none;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: white;
+        background: #42445A;
+        overflow: scroll;
+        
+        }
+        .card1 .nav{
+        border: 2px solid #2A9240;
+        margin: 10px 0;
+        text-align: center;
+        background: #BEFFCC;
+        color: #2A9240;
+        border-radius: 10px;
+        padding-right: 20px;
+
+        }
+        .result{
+        height: auto;
+        text-align: left;
+        padding: 20px;
+        resize: none;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: white;
+        background: #42445A;
+        overflow: scroll;
+        }      
+        .result1{
+        height: auto;
+        text-align: left;
+        padding: 20px;
+        resize: none;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: white;
+        background: #42445A;
+        overflow: scroll;
+        }       
+        /*=============start=menu===========*/
+            .menu{
+            width: 80%;
+            height: 100vh;
+            background: #eee;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top: 74px;
+            left: -80%;
+            transition: .4s ease ;
+            }
+            .menu ul{
+            padding: 20px;
+            }
+            .menu ul li{
+            list-style: none;
+            text-align: center;
+            margin: 15px auto;
+            background: #ccc;
+            padding: 4px 8px;
+            }
+            .menu ul li a{
+           
+            padding: 5px 40px;
+            margin: 10px auto;
+            text-decoration: none;
+            }
+            .menu .btn-close{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 60px;
+            height: 60px;
+            background: #f44;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius:0;
+            
+            }
+            .menu .btn-close i{
+            color: #fff;
+            font-size:28px;
+            }
+            .menu .btn-close:active{
+            background: #FF7C60;
+            }
+        /*=============and=menu===========*/      
+  </style>
+
+     
+    
+
+    <meta name="google-site-verification" content="tcmNQaVtH5-fIyMpYhTBE-Es83uof8xqJYOYWrun62U" />
+    <meta name="google-site-verification" content="tcmNQaVtH5-fIyMpYhTBE-Es83uof8xqJYOYWrun62U" />
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Cairo:wght@400;500;600&family=El+Messiri:wght@600&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="تعلم البرمجة,البرمجة,تعلم البرمجة للمبتدئين,تعلم البرمجة من الصفر,لغات البرمجة,البرمجة من الصفر,ماهي البرمجة,كورس برمجة,البرمجة للمبتدئين,برمجة,كيف اتعلم البرمجة,ما هي البرمجة,دراسة البرمجة,من أين أبدأ تعلم البرمجة,تعلم البرمجة من الصفر الى الاحتراف,اساسيات البرمجة,تعليم البرمجة,اتعلم البرمجة,دروس برمجة,تعلم لغات البرمجة,كيف تتعلم البرمجة,ما هي البرمجة؟,اول خطوة في البرمجة,تعلم البرمجة مجانا,دروس برمجة سى بلس بلس,تعلم البرمجة أونلاين">
+  <link rel="stylesheet" href="ki.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    
+      <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTiBuQsCmWR-4FgFC6vHjCoxYBAXql2yIfsGHyyROLyof6DzYHPdVeNPuNKYlShbxVLCtgpWp6vurSyb4Gbt_ptsO7gmMQDefOYFXxmoUHaE1g5DPwKFwGroZjeU6FvupwcRS7moUrzJuUE0JzmcKdNOSN12Lu5_L37dwxqaTkm_P414abqPiwPH8bKVg/s3264/20231207_141730.png">
+    
+ <link rel="shortcut" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTiBuQsCmWR-4FgFC6vHjCoxYBAXql2yIfsGHyyROLyof6DzYHPdVeNPuNKYlShbxVLCtgpWp6vurSyb4Gbt_ptsO7gmMQDefOYFXxmoUHaE1g5DPwKFwGroZjeU6FvupwcRS7moUrzJuUE0JzmcKdNOSN12Lu5_L37dwxqaTkm_P414abqPiwPH8bKVg/s3264/20231207_141730.png">
+    <link rel="appel-touoch-icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTiBuQsCmWR-4FgFC6vHjCoxYBAXql2yIfsGHyyROLyof6DzYHPdVeNPuNKYlShbxVLCtgpWp6vurSyb4Gbt_ptsO7gmMQDefOYFXxmoUHaE1g5DPwKFwGroZjeU6FvupwcRS7moUrzJuUE0JzmcKdNOSN12Lu5_L37dwxqaTkm_P414abqPiwPH8bKVg/s3264/20231207_141730.png">
+    <meta name="discription" content="academykiriwt - اكادمية كريوت">   
+  
+    
+  <title> academykiriwt - 
+    اكادمية كريوت</title>
+</head>
+
+<body>
+    
+ <!------------start-menu--------------->
+  <div class="menu">
+    <div class="btn-close" onclick="btn_close()">
+      <i class="bi bi-x"></i>
+    </div>
+    <ul>
+      <li>
+        <a href="
+    https://academykiriwt.blogspot.com/
+    ">القائمة الرئسية</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/@Academykiriwt-zo6xe/playlists"><bdi>[ HTML]</bdo>
+          فيديوهات دورة </a>
+      </li>
+      <li>
+        <a href="#codeedit">محرر أكواد</a>
+      </li>
+      <li>
+        <a href="">من نحن</a>
+      </li>
+    </ul>
+  </div>
+<!------------and-menu--------------->   
+  <nav>
+    <div class="btn">
+        <i class="bi bi-list"
+    onclick="open_menu()"></i>
+    </div>
+    <div class="logo" >
+    <a href
+    ="https://academykiriwt.blogspot.com"
+    
+    style="text-decoration:none;color:#444   "
+    >
+      
+
+    اكادمية كريوت
+    </a>
+    </div>
+  </nav>
+ 
+  <div class="intru">
+    <p  dir="rtl">
+    </p>
+  </div>
+  
+  <section style="margin-top: -70px; padding: 30px;" dir="rtl">
+    <h2 > 
+    
+        مقدمة التجارة الالكترونية
+
+
+
+    </h2>
+    <p dir="rtl">
+        التجارة الإلكترونية هي مفهوم يشير إلى عمليات البيع والشراء التي تتم عبر الإنترنت. تتيح هذه الصيغة الإلكترونية للأفراد والشركات إجراء التعاملات التجارية عبر الشبكة العنكبوتية دون الحاجة إلى التواجد الجغرافي في مكان واحد. إن مفهوم التجارة الإلكترونية يشمل مجموعة واسعة من الأنشطة، من بيع المنتجات والخدمات إلى التبادلات المالية والمعلومات.
+<br>
+        تشمل ميزات التجارة الإلكترونية:
+
+
+      <ol>
+        <li style="margin-right:20px; font-weight: bolder; text-decoration: underline;">التوسع الجغرافي:</li>
+      
+      
+      <br>
+      يمكن للتجارة الإلكترونية أن تمكن الشركات من الوصول إلى عملاء في جميع أنحاء العالم، دون الحاجة إلى إقامة هياكل تجارية في كل مكان.
+       <br>  
+    <br>
+      
+        <li style="margin-right:20px; font-weight: bolder; text-decoration: underline;"> السهولة والراحة:
+        </li>
+        
+        
+
+
+
+
+      <br>
+      يمكن للعملاء القيام بعمليات الشراء والدفع بكل سهولة من خلال الأجهزة الإلكترونية، مما يوفر لهم الراحة والوقت.
+
+
+      </ol>
+    </p>
+  </section>
+  
+ 
+
+
+
+   
+    
+      <footer>
+    <a href="https://wa.me/+212620490769">
+      <div>
+        <i class="bi bi-whatsapp"></i>
+      </div>
+    </a>
+    <a href="">
+      <div>
+        <i class="bi bi-facebook"></i>
+      </div>
+    </a>
+    <a href="">
+      <div>
+        <i class="bi bi-instagram"></i>
+      </div>
+    </a>
+  </footer>
+ 
+  <script>
+    /*========start=menu========*/
+function open_menu(){
+      let menu=document.querySelector('.menu');
+      menu.style.cssText=`left: 0;`;
+    }
+    function btn_close(){
+      let menu = document.querySelector('.menu');
+      menu.style.cssText =`left:-80%;`;
+    }
+ /*===============and=menu=========*/
+    
+    
+let result= document.querySelector('.result');
+let btn = document.getElementById('btn');
+let cod = document.getElementById('code');
+btn.addEventListener('click', () => {
+  result.innerHTML = cod.value;
+})
+    
+  function b(){
+    let resultt = document.querySelector('.result1');
+    var codd = document.querySelector('#cod');
+    resultt.innerHTML = codd.value;
+  }  
+  </script>
+</body>
+
+</html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
